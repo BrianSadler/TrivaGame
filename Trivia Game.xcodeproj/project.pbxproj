@@ -12,6 +12,7 @@
 		20328B1E216BB4900026A755 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20328B1C216BB4900026A755 /* Main.storyboard */; };
 		20328B20216BB4920026A755 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 20328B1F216BB4920026A755 /* Assets.xcassets */; };
 		20328B23216BB4920026A755 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20328B21216BB4920026A755 /* LaunchScreen.storyboard */; };
+		20328B2B216CEA0D0026A755 /* TriviaQuestions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20328B2A216CEA0D0026A755 /* TriviaQuestions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		20328B1F216BB4920026A755 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		20328B22216BB4920026A755 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		20328B24216BB4920026A755 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		20328B2A216CEA0D0026A755 /* TriviaQuestions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TriviaQuestions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 				20328B1F216BB4920026A755 /* Assets.xcassets */,
 				20328B21216BB4920026A755 /* LaunchScreen.storyboard */,
 				20328B24216BB4920026A755 /* Info.plist */,
+				20328B2A216CEA0D0026A755 /* TriviaQuestions.swift */,
 			);
 			path = "Trivia Game";
 			sourceTree = "<group>";
@@ -135,6 +138,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				20328B2B216CEA0D0026A755 /* TriviaQuestions.swift in Sources */,
 				20328B1B216BB4900026A755 /* ViewController.swift in Sources */,
 				20328B19216BB4900026A755 /* AppDelegate.swift in Sources */,
 			);

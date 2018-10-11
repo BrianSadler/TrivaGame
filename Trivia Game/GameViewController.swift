@@ -37,12 +37,21 @@ class GameViewController: UIViewController {
             answer4.setTitle(currentQuestion.answers[3], for: .normal)
         }
     }
+    // alert for when game is completed
+    func gameOverAlert() {
+        let gameOverAlert = UIAlertController(title: "Results", message: "Game over! Your score was \(score) out of \(answeredQuestions.count)" , preferredStyle: .actionSheet)
+        let resetAction = UIAlertAction(title: "Reset", style: .default) {
+            _ in self.resetGame()
+        }
+        gameOverAlert.addAction(resetAction)
+        self.present(gameOverAlert, animated: true,completion: nil)
+    }
     func getNewQuestion() {
         if questions.count > 0 {
         randomIndex = Int(arc4random_uniform(UInt32(questions.count)))
             currentQuestion = questions[randomIndex]
         } else {
-            resetGame()
+            gameOverAlert()
         }
     }
     func resetGame() {
@@ -78,6 +87,9 @@ class GameViewController: UIViewController {
         incorrectAlert.addAction(closeAction)
         // present the alert controller
         self.present(incorrectAlert,animated: true, completion: nil)
+        
+       
+        
     }
     
     @IBAction func Choice(_ sender: UIButton) {
@@ -90,6 +102,9 @@ class GameViewController: UIViewController {
             showIncorrectAnswerAlert()
             
         }
+    }
+    @IBAction func resetButtonTapped(_ sender: Any) {
+        resetGame()
     }
     override func viewDidLoad() {
         super.viewDidLoad()

@@ -186,53 +186,53 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" axis="vertical" distribution="fillEqually" spacing="26" translatesAutoresizingMaskIntoConstraints="NO" id="aLv-m5-8IH">
-                                <rect key="frame" x="111" y="113" width="182.5" height="478"/>
+                                <rect key="frame" x="111" y="113" width="188" height="534"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Add Your Own Question" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="D0C-Mv-Uqn">
-                                        <rect key="frame" x="0.0" y="0.0" width="182.5" height="30"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="188" height="30"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter Question Here" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="fFz-aW-Zi0">
-                                        <rect key="frame" x="0.0" y="56" width="182.5" height="30"/>
+                                        <rect key="frame" x="0.0" y="56" width="188" height="30"/>
                                         <nil key="textColor"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits"/>
                                     </textField>
                                     <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Answer 1" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ccZ-NH-ELj">
-                                        <rect key="frame" x="0.0" y="112" width="182.5" height="30"/>
+                                        <rect key="frame" x="0.0" y="112" width="188" height="30"/>
                                         <nil key="textColor"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits"/>
                                     </textField>
                                     <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Answer 2" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="mz0-M4-gmg">
-                                        <rect key="frame" x="0.0" y="168" width="182.5" height="30"/>
+                                        <rect key="frame" x="0.0" y="168" width="188" height="30"/>
                                         <nil key="textColor"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits"/>
                                     </textField>
                                     <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Answer 3" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="rMv-c9-Fcz">
-                                        <rect key="frame" x="0.0" y="224" width="182.5" height="30"/>
+                                        <rect key="frame" x="0.0" y="224" width="188" height="30"/>
                                         <nil key="textColor"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits"/>
                                     </textField>
                                     <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Answer 4" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="FVp-bW-Q9R">
-                                        <rect key="frame" x="0.0" y="280" width="182.5" height="30"/>
+                                        <rect key="frame" x="0.0" y="280" width="188" height="30"/>
                                         <nil key="textColor"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits"/>
                                     </textField>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Correct Answer" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yHO-4v-hvI">
-                                        <rect key="frame" x="0.0" y="336" width="182.5" height="30"/>
+                                        <rect key="frame" x="0.0" y="336" width="188" height="30"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="eSf-2o-CzF">
-                                        <rect key="frame" x="0.0" y="392" width="182.5" height="31"/>
+                                        <rect key="frame" x="0.0" y="392" width="188" height="31"/>
                                         <segments>
                                             <segment title="1"/>
                                             <segment title="2"/>
@@ -240,8 +240,16 @@
                                             <segment title="4"/>
                                         </segments>
                                     </segmentedControl>
+                                    <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="den-YV-shB">
+                                        <rect key="frame" x="0.0" y="448" width="188" height="31"/>
+                                        <segments>
+                                            <segment title="General"/>
+                                            <segment title="Animal"/>
+                                            <segment title="Movie"/>
+                                        </segments>
+                                    </segmentedControl>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pxh-UH-5Re">
-                                        <rect key="frame" x="0.0" y="448" width="182.5" height="30"/>
+                                        <rect key="frame" x="0.0" y="504" width="188" height="30"/>
                                         <state key="normal" title="Submit"/>
                                         <connections>
                                             <action selector="submitButton:" destination="OdM-Iu-Dcv" eventType="touchUpInside" id="jn0-aM-aag"/>
@@ -254,15 +262,18 @@
                         <viewLayoutGuide key="safeArea" id="ZpZ-A6-mB1"/>
                     </view>
                     <connections>
+                        <outlet property="catagoryChoice" destination="den-YV-shB" id="Hgo-nA-g9i"/>
                         <outlet property="correctAnswer" destination="eSf-2o-CzF" id="XFQ-D3-fsY"/>
                         <outlet property="userAnswer1" destination="ccZ-NH-ELj" id="zC4-IO-NMX"/>
                         <outlet property="userAnswer2" destination="mz0-M4-gmg" id="rPE-wY-rL0"/>
                         <outlet property="userAnswer3" destination="rMv-c9-Fcz" id="Gdk-wn-L4k"/>
                         <outlet property="userAnswer4" destination="FVp-bW-Q9R" id="rd3-eC-9cQ"/>
                         <outlet property="userQuestion" destination="fFz-aW-Zi0" id="dpE-ec-Rdq"/>
+                        <segue destination="yvJ-px-eci" kind="unwind" identifier="unwindToHome" unwindAction="unwindToHomeWithSegue:" id="b8Z-eQ-hx5"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="jsv-Hb-hJW" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <exit id="yvJ-px-eci" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
             <point key="canvasLocation" x="1093.5999999999999" y="831.63418290854577"/>
         </scene>

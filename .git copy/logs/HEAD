@@ -1,0 +1,6 @@
+0000000000000000000000000000000000000000 619ee26b2919e6c5839a7f88ef189448fbd2f3a3 Brian Sadler <briansadler@MacBook-Pro-3.local> 1539020013 -0500	commit (initial): first commit
+619ee26b2919e6c5839a7f88ef189448fbd2f3a3 619ee26b2919e6c5839a7f88ef189448fbd2f3a3 Brian Sadler <briansadler@MacBook-Pro-3.local> 1539021690 -0500	checkout: moving from master to devlop
+619ee26b2919e6c5839a7f88ef189448fbd2f3a3 01dd302cc0e0a84e4497f37187f9b0c569629d84 Brian Sadler <briansadler@MacBook-Pro-3.local> 1539094601 -0500	commit: Created a trivia question class file.
+01dd302cc0e0a84e4497f37187f9b0c569629d84 e77977cfd9e1cefc2b2d2985296cfd7fca278c98 Brian Sadler <briansadler@MacBook-Pro-3.local> 1539270346 -0500	commit: Basic trivia game complete. Categories are in progress.
+e77977cfd9e1cefc2b2d2985296cfd7fca278c98 7284afa9544a5add868c937634aaebd9aa130af5 Brian Sadler <briansadler@MacBook-Pro-3.local> 1539280954 -0500	commit: added some picker functionality. Added user question view.
+7284afa9544a5add868c937634aaebd9aa130af5 cd7eae09811564bb8a5a25f62c1c53647440566c Brian Sadler <briansadler@MacBook-Pro-3.local> 1539350047 -0500	commit: Basic trivia game is complete.
